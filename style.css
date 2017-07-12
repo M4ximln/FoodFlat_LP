@@ -1,3 +1,22 @@
 body {
 position: relative;
 }
+
+.section {
+  height: 100%;
+  padding-top: 60px;
+  /*
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+*/
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}

@@ -11,7 +11,6 @@ $('#restaurantBenefits').click(function (e) {
 
 //Resize Individual parts
 $(document).ready(function(){
-    $(window).resize(function(){
-        $(".fullHeight").height($(document).height());
-    });
+    $('.section').height($(window).height()-$("#myNavbar").outerHeight());
+    $('.section').css("margin-top",$("#myNavbar").outerHeight());
 });
