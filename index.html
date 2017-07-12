@@ -18,9 +18,9 @@
   <body data-spy="scroll" data-target="#myNavbar" data-offset="70">
 
     <!-- Navbar -->
-    <div id="myNavbar">
+    <div id="phNavbar">
 
-      <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
+      <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse"  id="myNavbar">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -55,9 +55,11 @@
       </nav>
     </div>
 
+    <div id="main-wrapper">
+
     <!-- Jumbotron Top-->
-    <div id="home">
-      <div class="jumbotron jumbotron-fluid">
+    <div id="home" class="section">
+      <div class="jumbotron jumbotron-fluid fullHeight">
         <div class="container">
           <h1 class="display-3">Hello, world!</h1>
           <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -75,10 +77,10 @@
     <div class="container">
 
       <!-- Process with 4 Steps -->
-      <div id="about">
+      <div id="about" class="section">
 
         <!-- Step 1: Offer Request -->
-        <div class="card-deck">
+        <div class="card-deck fullHeight">
           <div class="card">
             <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-block">
@@ -132,7 +134,7 @@
       <br />
 
       <!-- Advantages for individual users -->
-      <div id="benefits">
+      <div id="benefits" class="section">
 
         <ul class="nav nav-pills nav-justified">
           <li class="nav-item">
@@ -154,8 +156,8 @@
     </div>
 
     <!-- Subscribe button instead of Download Call to Action -->
-    <div id="subscribe">
-      <div class="jumbotron jumbotron-fluid">
+    <div id="subscribe" class="section">
+      <div class="jumbotron jumbotron-fluid fullHeight">
         <div class="container">
           <h1 class="display-3">Subscribe to our newsletter</h1>
           <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -166,6 +168,7 @@
         </div>
       </div>
     </div>
+  </div>
 
 
 
