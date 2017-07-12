@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bootstrap Section</title>
+    <title>Eatoutery</title>
 
     <!-- Link to Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -18,37 +18,44 @@
   <body data-spy="scroll" data-target="#myNavbar" data-offset="70">
 
     <!-- Navbar -->
-    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Navbar Brand -->
-      <a class="navbar-brand" href="#">Eatoutery</a>
+    <div id="myNavbar">
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <!--Nav Item 1 -->
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <!--Nav Item 2 -->
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <!--Nav Item 3 -->
-          <li class="nav-item">
-            <a class="nav-link" href="#">Subscribe</a>
-          </li>
-        </ul>
-        <!-- Form in Navbar -->
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="you@example.com">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Subscribe</button>
-        </form>
-      </div>
-    </nav>
+      <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar Brand -->
+        <a class="navbar-brand" href="#">Eatoutery</a>
 
-    <!-- Jumbotron -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!--Nav Item 1 -->
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <!--Nav Item 2 -->
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <!--Nav Item 3 -->
+            <li class="nav-item">
+              <a class="nav-link" href="#benefits">Benefits</a>
+            </li>
+            <!--Nav Item 4 -->
+            <li class="nav-item">
+              <a class="nav-link" href="#subscribe">Subscribe</a>
+            </li>
+          </ul>
+          <!-- Form in Navbar -->
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="you@example.com">
+            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Jumbotron Top-->
     <div id="home">
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -67,18 +74,97 @@
     <!-- Page Content -->
     <div class="container">
 
-      <!-- About area with 3 Steps -->
+      <!-- Process with 4 Steps -->
       <div id="about">
 
+        <!-- Step 1: Offer Request -->
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Customers make offers to a restaurant</h4>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <!-- Step 2: Offer Creation -->
+          <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Restaurants accept offers or create their own</h4>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <!-- Step 3: Customer Subscription -->
+          <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Customers subscribe to an active offer</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <!-- Step 4: Customer Enjoyment -->
+          <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Customers save money and enjoy their favorite food more frequently</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <br />
+
+      <!-- Advantages for individual users -->
+      <div id="benefits">
+
+        <ul class="nav nav-pills nav-justified">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="pill" href="#customerAdvantages">Advantages for Customers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#restaurantBenefits">Advantages for Restaurants</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="customerAdvantages" role="tabpanel">Customer Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+
+          <div class="tab-pane" id="restaurantBenefits" role="tabpanel" style="background-color:lightgrey">Restaurant Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+        </div>
+
       </div>
 
-      <!-- Subscribe button instead of Download Call to Action -->
-      <div id="subscribe">
+    </div>
 
+    <!-- Subscribe button instead of Download Call to Action -->
+    <div id="subscribe">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-3">Subscribe to our newsletter</h1>
+          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+          <p class="lead form-inline">
+            <input class="form-control mr-sm-2" type="text" placeholder="you@example.com">
+            <a class="btn btn-warning btn-lg" href="#" role="button">Subscribe</a>
+          </p>
+        </div>
       </div>
-
-
-
     </div>
 
 
@@ -90,7 +176,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 
     <!-- Link to Bootstrap Script -->
+    <!-- jQuery doppelt ?
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
