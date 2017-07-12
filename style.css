@@ -35,6 +35,11 @@ position: relative;
   border-color: #C95454;
 }
 
+/*Font Awesome*/
+.fa {
+  color: white;
+}
+
 /*Top Jumbotron*/
 #home .jumbotron {
   background-image: url("images/background.jpg");
@@ -67,6 +72,27 @@ position: relative;
 /*Benefits*/
 #benefits {
   background-color: #C95454;
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+    color: white;
+    font-weight: bold;
+    cursor: default;
+    background-color: #b51515;
+}
+
+#benefits a {
+  color: white;
+}
+
+#benefits .card {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+#benefits h4 {
+  margin-top: 1em;
 }
 
 /*Bottom Jumbotron*/
