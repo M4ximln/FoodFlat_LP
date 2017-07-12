@@ -8,7 +8,7 @@
     <title>Bootstrap Section</title>
 
     <!-- Link to Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
     <!-- Link to my CSS -->
     <link href="style.css" rel="stylesheet">
@@ -17,34 +17,36 @@
 
   <body data-spy="scroll" data-target="#myNavbar" data-offset="70">
 
-    <nav  id="myNavbar" class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+    <!-- Navbar -->
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">ScrollSpy</a>
+      <a class="navbar-brand" href="#">Eatoutery</a>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#partA">Part A</a>
+            <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#partB">Part B</a>
+            <a class="nav-link" href="#">Subscribe</a>
           </li>
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
     </nav>
 
+    <!-- Page Content -->
     <div class="container">
 
-      <p id="home" class="bigText">Bavaria ipsum dolor sit amet scheans a so a Schmarn Guglhupf Jodler Marterl Weißwiaschd Foidweg? Blosmusi wo hi Mongdratzal sei Baamwach heid is des liab, hawadere midananda gar nia need auf gehds beim Schichtl! Ohrwaschl resch wui Biagadn wea ko, dea ko Zidern. Fensdaln trihöleridi dijidiholleri Oachkatzlschwoaf nix, wea ko, dea ko ghupft wia gsprunga midanand. Af geh i, Fingahaggln Weißwiaschd auffi Greichats Schneid Engelgwand kloan. Zwoa nomoi mehra in da greana Au Prosd Mamalad, nois is auf der Oim, da gibt’s koa Sünd. Schüds nei Bradwurschtsemmal Resi soi obacht. Wo hi dei Spuiratz unbandig oans griasd eich midnand Hendl kumm geh, an d’. Boarischer Marei Kuaschwanz vui huift vui pfenningguat Kneedl Maibam, des is schee. Resch Maderln Ramasuri Milli Musi nia, umma.</p>
-      <h1 id="partA">Part A</h1>
-      <p class="bigText">Bavaria ipsum dolor sit amet scheans a so a Schmarn Guglhupf Jodler Marterl Weißwiaschd Foidweg? Blosmusi wo hi Mongdratzal sei Baamwach heid is des liab, hawadere midananda gar nia need auf gehds beim Schichtl! Ohrwaschl resch wui Biagadn wea ko, dea ko Zidern. Fensdaln trihöleridi dijidiholleri Oachkatzlschwoaf nix, wea ko, dea ko ghupft wia gsprunga midanand. Af geh i, Fingahaggln Weißwiaschd auffi Greichats Schneid Engelgwand kloan. Zwoa nomoi mehra in da greana Au Prosd Mamalad, nois is auf der Oim, da gibt’s koa Sünd. Schüds nei Bradwurschtsemmal Resi soi obacht. Wo hi dei Spuiratz unbandig oans griasd eich midnand Hendl kumm geh, an d’. Boarischer Marei Kuaschwanz vui huift vui pfenningguat Kneedl Maibam, des is schee. Resch Maderln Ramasuri Milli Musi nia, umma.</p>
-      <h1 id="partB">Part B</h1>
-      <p class="bigText">Bavaria ipsum dolor sit amet scheans a so a Schmarn Guglhupf Jodler Marterl Weißwiaschd Foidweg? Blosmusi wo hi Mongdratzal sei Baamwach heid is des liab, hawadere midananda gar nia need auf gehds beim Schichtl! Ohrwaschl resch wui Biagadn wea ko, dea ko Zidern. Fensdaln trihöleridi dijidiholleri Oachkatzlschwoaf nix, wea ko, dea ko ghupft wia gsprunga midanand. Af geh i, Fingahaggln Weißwiaschd auffi Greichats Schneid Engelgwand kloan. Zwoa nomoi mehra in da greana Au Prosd Mamalad, nois is auf der Oim, da gibt’s koa Sünd. Schüds nei Bradwurschtsemmal Resi soi obacht. Wo hi dei Spuiratz unbandig oans griasd eich midnand Hendl kumm geh, an d’. Boarischer Marei Kuaschwanz vui huift vui pfenningguat Kneedl Maibam, des is schee. Resch Maderln Ramasuri Milli Musi nia, umma.</p>
+
 
     </div>
 
@@ -57,7 +59,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 
     <!-- Link to Bootstrap Script -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
     <!-- My JavaScript -->
     <script src="script.js"></script>
