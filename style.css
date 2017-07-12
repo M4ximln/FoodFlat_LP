@@ -13,6 +13,64 @@ position: relative;
   padding-bottom: 5%;
 }
 
+/*Buttons*/
+
+.btn-primary {
+  background-color: #b51515;
+  border-color: #b51515;
+}
+
+.btn-primary:hover {
+  background-color: #C95454;
+  border-color: #C95454;
+}
+
+.btn-warning {
+  background-color: #FFC300;
+  border-color: #FFC300;
+}
+
+.btn-warning:hover {
+  background-color: #C95454;
+  border-color: #C95454;
+}
+
+/*Top Jumbotron*/
+#home .jumbotron {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.my-4 {
+  border-color: white;
+}
+
+/*Navbar*/
 .navbar {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
+  background-color: #b51515;
+}
+
+.btn-outline-warning {
+    color: #FFC300;
+    background-image: none;
+    background-color: transparent;
+    border-color: #FFC300;
+}
+
+.btn-outline-warning:hover {
+  background-color: #FFC300;
+  color: #b51515;
+}
+
+/*Benefits*/
+#benefits {
+  background-color: #C95454;
+}
+
+/*Bottom Jumbotron*/
+#subscribe .jumbotron {
+  background-image: url("images/background2.jpg");
+  background-size: cover;
 }
