@@ -95,6 +95,9 @@ position: relative;
   margin-top: 1em;
 }
 
+/* Vertical Alignment */
+
+
 /*Bottom Jumbotron*/
 #subscribe .jumbotron {
   background-image: url("images/background2.jpg");
