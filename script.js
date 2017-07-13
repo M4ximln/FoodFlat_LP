@@ -8,9 +8,3 @@ $('#restaurantBenefits').click(function (e) {
   e.preventDefault()
   $(this).tab('show')
 })
-
-//Resize Individual parts
-$(document).ready(function(){
-    $('.section').height($(window).height()-$("#myNavbar").outerHeight());
-    $('.section').css("padding-top",$("#myNavbar").outerHeight());
-});
